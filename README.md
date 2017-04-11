@@ -13,60 +13,36 @@ Similar to existing applications, this game can be used to train the player’s 
 ## How to use
 1. Git clone this repository
 2. Repackage frequency_calculation_core and quacker to use absolute paths on your computer
-3. Synthesize with the game.v and game_wrapper.v Verilog files
+3. Synthesize with the game.v and game_wrapper.v Verilog files  
   \- OR \-
 3. Create a new project and include the IP blocks repositories that you need
 
 ## Repository structure
-|- README.md
-
-|- docs
-
-|    |- Presentation Slides.pdf
-
-|    |- Final Report
-
-|
-
-|- src
-
-|    |- PERIPHERALS
-
-|    |    |- display_3.0 Packaged IP
-
-|    |    |- frequency_calculation_core Packaged IP
-
-|    |    |- hexprint Packaged IP
-
-|    |    |- pushbutton Packaged IP
-
-|    |    |- quacker Packaged IP
-
-|    |    |- constraints.xdc
-
-|    |    |- FHT_LUT_VALUES.txt
-
-|    |    |- FHT_TEST_VALUES.txt
-
-|    |    |- ZERO_VALUES.txt
-
-|    |
-
-|    |- SOFTWARE
-
-|    |    |- main.c
-
-|    |    |- duck_list.h
-
-|    |    |- definitions.h
-
-|    |
-
-|    |- game.v
-
-|    |- game_wrapper.v
-
-|
+|- README.md  
+|- docs  
+|    |- Presentation Slides.pdf  
+|    |- Final Report  
+|  
+|- src  
+|    |- PERIPHERALS  
+|    |    |- display_3.0 Packaged IP  
+|    |    |- frequency_calculation_core Packaged IP  
+|    |    |- hexprint Packaged IP  
+|    |    |- pushbutton Packaged IP  
+|    |    |- quacker Packaged IP  
+|    |    |- constraints.xdc  
+|    |    |- FHT_LUT_VALUES.txt  
+|    |    |- FHT_TEST_VALUES.txt  
+|    |    |- ZERO_VALUES.txt  
+|    |  
+|    |- SOFTWARE  
+|    |    |- main.c  
+|    |    |- duck_list.h  
+|    |    |- definitions.h  
+|    |  
+|    |- game.v  
+|    |- game_wrapper.v  
+|  
 
 ## Authors
 Jianwei Sun
