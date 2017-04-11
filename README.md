@@ -20,34 +20,34 @@ Similar to existing applications, this game can be used to train the player’s 
 ## Repository structure
 |- README.md  
 |- docs  
-|    |- Presentation Slides.pdf  
-|    |- Final Report  
+|....|- Presentation Slides.pdf  
+|....|- Final Report  
 |  
 |- src  
-|    |- PERIPHERALS  
-|    |    |- display_3.0 Packaged IP  
-|    |    |- frequency_calculation_core Packaged IP  
-|    |    |- hexprint Packaged IP  
-|    |    |- pushbutton Packaged IP  
-|    |    |- quacker Packaged IP  
-|    |    |- constraints.xdc  
-|    |    |- FHT_LUT_VALUES.txt  
-|    |    |- FHT_TEST_VALUES.txt  
-|    |    |- ZERO_VALUES.txt  
-|    |  
-|    |- SOFTWARE  
-|    |    |- main.c  
-|    |    |- duck_list.h  
-|    |    |- definitions.h  
-|    |  
-|    |- game.v  
-|    |- game_wrapper.v  
+|....|- PERIPHERALS  
+|....|....|- display_3.0 Packaged IP  
+|....|....|- frequency_calculation_core Packaged IP  
+|....|....|- hexprint Packaged IP  
+|....|....|- pushbutton Packaged IP  
+|....|....|- quacker Packaged IP  
+|....|....|- constraints.xdc  
+|....|....|- FHT_LUT_VALUES.txt  
+|....|....|- FHT_TEST_VALUES.txt  
+|....|....|- ZERO_VALUES.txt  
+|....|  
+|....|- SOFTWARE  
+|....|....|- main.c  
+|....|....|- duck_list.h  
+|....|....|- definitions.h  
+|....|  
+|....|- game.v  
+|....|- game_wrapper.v  
 |  
 
 ## Authors
-Jianwei Sun
-Wenyi Yin
-Wen Bo Li
+Jianwei Sun  
+Wenyi Yin  
+Wen Bo Li  
 
 ## Acknowledgements
 Black Duck Down could not have been created without the generous support and guidance of Professor Paul Chow and all of the teaching assistants in ECE532 2017 Spring. Our team would like to thank our TA, Jin Hee, for her continued support throughout this project.
