@@ -19,23 +19,23 @@ Similar to existing applications, this game can be used to train the player’s 
 
 ## Repository structure
 |- README.md  
-|- docs  
+|- docs/  
 |........|- Presentation Slides.pdf  
 |........|- Final Report  
 |  
-|- src  
-|........|- PERIPHERALS  
-|........|........|- display_3.0 Packaged IP  
-|........|........|- frequency_calculation_core Packaged IP  
-|........|........|- hexprint Packaged IP  
-|........|........|- pushbutton Packaged IP  
-|........|........|- quacker Packaged IP  
+|- src/  
+|........|- PERIPHERALS/  
+|........|........|- display_3.0/  
+|........|........|- frequency_calculation_core/  
+|........|........|- hexprint/  
+|........|........|- pushbutton/  
+|........|........|- quacker/  
 |........|........|- constraints.xdc  
 |........|........|- FHT_LUT_VALUES.txt  
 |........|........|- FHT_TEST_VALUES.txt  
 |........|........|- ZERO_VALUES.txt  
 |........|  
-|........|- SOFTWARE  
+|........|- SOFTWARE/  
 |........|........|- main.c  
 |........|........|- duck_list.h  
 |........|........|- definitions.h  
